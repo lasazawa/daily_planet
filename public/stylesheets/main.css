@@ -1,10 +1,23 @@
 p{
     font-size: 16px;
     line-height: 1.425em;
+    font-weight: 400;
 }
 h1{
     color: white;
-    margin: 20px -10px;
+    margin: 20px 0;
+    font-weight: 300;
+}
+h3{
+    font-weight: 400;
+}
+
+a{
+    color: rgba(224,11,75,1);
+    font-weight: 400;
+}
+a:hover{
+    color: rgba(186,4,54,1);
 }
 
 
@@ -15,22 +28,19 @@ h1{
     color:#91908C;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 500;
+    letter-spacing: 0.05em
 }
 
 .navbar {
     border-radius: 0px;
 }
 .glyphicon{
-    color: rgba(255,255,255,0.8);
+    color: rgba(224,11,75,0.8);
     font-size: 36px;
-    margin-left: -10px;
 }
 .glyphicon:hover{
-    color: rgba(255,255,255,1);
-}
-ul.navbar-nav.nav {
-    width:100%;
+    color: rgba(224,11,75,1);
 }
 
 .navbar-nav>li{
@@ -52,11 +62,12 @@ ul.navbar-nav.nav {
 
 button{
     margin: 2px 0 0 5px;
-    color:#333;
     float:right;
+    background-color: rgba(0,0,0,0.5);
 }
 button:hover{
-    background-color: white;
+    color:rgba(255,255,255,1);
+    background-color: rgba(0,0,0,1);
 }
 
 .hero {
@@ -68,3 +79,20 @@ button:hover{
 .main {
     margin-bottom: 40px;
 }
+footer{
+    height: 40px;
+}
+.quote {
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin-top: 0;
+    color: rgba(224,11,75,1);
+}
+
+ul.navbar-nav.nav {
+    width:100%;
+}
+
+
+
